@@ -1,0 +1,307 @@
+# PROJECT: PROFESSIONAL 2D STICK-FIGURE ANIMATION STUDIO
+
+## 1. ROLE AND OBJECTIVE
+
+Act as a senior software engineer, 2D animation systems architect, UI/UX designer, and creative application developer.
+
+Your task is to develop a professional browser-based 2D stick-figure animation studio designed specifically for producing high-quality YouTube animation videos.
+
+The application must provide a complete animation workflow, from character creation and scene design to animation, sound design, preview, and video export.
+
+This must be a functional application, not just a visual mockup or static demonstration.
+
+## 2. TECHNOLOGY STACK
+
+Use the following technologies:
+
+- TypeScript for application logic.
+- HTML5 for application structure.
+- CSS3 for responsive interface design.
+- HTML5 Canvas API for rendering 2D animations.
+- Vite for development and building.
+- Web Audio API for sound playback and audio management.
+- IndexedDB for storing larger project data and assets.
+- LocalStorage for lightweight application preferences.
+
+Use modular, maintainable architecture.
+
+Avoid unnecessary frameworks and dependencies.
+
+## 3. APPLICATION INTERFACE
+
+Create a professional dark-themed animation workspace inspired by professional animation software.
+
+The interface should contain:
+
+A. Top toolbar:
+- Project name.
+- New project.
+- Save project.
+- Open project.
+- Undo and redo.
+- Export video.
+- Preview animation.
+
+B. Left sidebar:
+- Character library.
+- Character creation.
+- Background library.
+- Props and objects.
+- Audio library.
+- Scene manager.
+
+C. Main workspace:
+- Large animation canvas.
+- Character positioning.
+- Object selection.
+- Transform controls.
+- Zoom and pan.
+- Grid and alignment guides.
+
+D. Bottom timeline:
+- Frame ruler.
+- Playhead.
+- Play and pause.
+- Frame-by-frame navigation.
+- Timeline tracks.
+- Keyframe controls.
+- FPS control.
+- Duration control.
+
+Make the layout responsive and usable on desktop computers.
+
+## 4. CHARACTER CREATION SYSTEM
+
+Develop a customizable stick-figure character editor.
+
+Each character should support:
+
+- Head.
+- Neck.
+- Torso.
+- Upper arms.
+- Lower arms.
+- Hands.
+- Upper legs.
+- Lower legs.
+- Feet.
+
+Allow customization of:
+
+- Character colors.
+- Body proportions.
+- Head size.
+- Limb length.
+- Line thickness.
+- Character name.
+- Basic facial expressions.
+
+Characters must support articulated movement through a hierarchical bone or joint system.
+
+Implement forward and inverse kinematics where practical.
+
+Allow characters to be saved and reused in different projects.
+
+## 5. ANIMATION ENGINE
+
+Develop a frame-based animation system with keyframe interpolation.
+
+Support the following movements:
+
+- Walking.
+- Running.
+- Jumping.
+- Falling.
+- Standing.
+- Sitting.
+- Punching.
+- Kicking.
+- Dodging.
+- Fighting.
+- Dancing.
+- Custom poses.
+
+Include:
+
+- Keyframe creation and editing.
+- Position and rotation animation.
+- Scale animation.
+- Smooth interpolation.
+- Easing curves.
+- Animation looping.
+- Onion skinning.
+- Copy and paste keyframes.
+- Duplicate animation sequences.
+
+The animation system should allow multiple characters to move independently and interact within the same scene.
+
+## 6. TIMELINE AND SCENE MANAGEMENT
+
+Implement a professional timeline.
+
+Requirements:
+
+- Multiple animation tracks.
+- Separate character tracks.
+- Object and background tracks.
+- Audio tracks.
+- Adjustable frame rate.
+- Adjustable animation duration.
+- Timeline zoom.
+- Playhead navigation.
+- Keyframe selection.
+- Keyframe deletion.
+- Timeline scrubbing.
+
+Support multiple scenes within a single project.
+
+Allow users to duplicate, reorder, rename, and delete scenes.
+
+## 7. CAMERA SYSTEM
+
+Implement a 2D virtual camera with:
+
+- Camera position.
+- Camera zoom.
+- Camera movement.
+- Smooth camera transitions.
+- Follow-character mode.
+- Camera shake.
+- Scene framing.
+
+Allow camera keyframes to be animated independently.
+
+## 8. BACKGROUND AND OBJECT SYSTEM
+
+Allow users to add:
+
+- Solid-color backgrounds.
+- Gradient backgrounds.
+- Custom background images.
+- Floors and platforms.
+- Buildings.
+- Trees.
+- Furniture.
+- Basic props.
+
+Support object positioning, rotation, scaling, layering, and animation.
+
+## 9. SOUND DESIGN
+
+Implement an audio system supporting:
+
+- Sound-effect import.
+- Background music import.
+- Audio timeline tracks.
+- Volume control.
+- Audio trimming.
+- Audio positioning.
+- Playback synchronization.
+
+Use supported browser audio formats and handle audio timing accurately.
+
+## 10. VIDEO EXPORT
+
+Create an export system with:
+
+- 1920x1080 Full HD.
+- 1280x720 HD.
+- 1080x1920 vertical video.
+- 30 FPS and 60 FPS options.
+- Animation duration selection.
+- Background rendering.
+- Audio synchronization.
+
+Use Canvas capture and MediaRecorder where appropriate.
+
+Support WebM export natively.
+
+Investigate an optional FFmpeg-based conversion workflow for MP4 export. Do not claim MP4 export works unless it has actually been implemented and tested.
+
+## 11. PROJECT MANAGEMENT
+
+Users must be able to:
+
+- Create projects.
+- Save projects.
+- Reopen projects.
+- Rename projects.
+- Duplicate projects.
+- Import and export project files.
+- Reuse saved characters.
+- Reuse backgrounds and animation assets.
+
+Prevent accidental loss of unsaved work.
+
+Implement automatic saving where practical.
+
+## 12. PERFORMANCE AND QUALITY
+
+The application must:
+
+- Run smoothly on ordinary Windows computers.
+- Avoid unnecessary memory consumption.
+- Use efficient canvas rendering.
+- Separate rendering from timeline logic.
+- Handle multiple animated characters.
+- Provide useful error messages.
+- Maintain consistent animation timing.
+
+## 13. DEVELOPMENT AND TESTING
+
+Before development:
+
+1. Inspect the existing GitHub repository.
+2. Identify existing files and dependencies.
+3. Explain the proposed architecture.
+4. Identify technical risks and implementation priorities.
+
+Then implement the application in phases.
+
+Phase 1: Application foundation and interface.
+
+Phase 2: Canvas rendering and character creation.
+
+Phase 3: Character rigging and animation engine.
+
+Phase 4: Timeline and keyframe system.
+
+Phase 5: Scene management and camera controls.
+
+Phase 6: Audio integration.
+
+Phase 7: Video export.
+
+Phase 8: Testing, optimization, and documentation.
+
+For each phase:
+
+- Create actual project files.
+- Implement working functionality.
+- Run available tests.
+- Fix errors before moving forward.
+- Update the README documentation.
+- Explain what was implemented.
+
+Do not create empty placeholder files and claim that features are complete.
+
+Do not remove existing user files without permission.
+
+Keep changes organized and compatible with the GitHub repository.
+
+## 14. FINAL DELIVERABLE
+
+The final application should allow a beginner creator to:
+
+1. Create a stick-figure character.
+2. Build an animated scene.
+3. Add multiple characters.
+4. Create fighting and storytelling animations.
+5. Control character movements using keyframes.
+6. Add backgrounds and sound effects.
+7. Preview the completed animation.
+8. Export a finished video for YouTube.
+
+The final result must be a functional, maintainable, extensible 2D animation studio.
+
+Start by inspecting the repository and presenting your technical implementation plan. Do not begin modifying files until I approve the plan.
